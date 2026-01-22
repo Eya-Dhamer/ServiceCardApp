@@ -9,17 +9,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-        iconTheme: const IconThemeData(color: Colors.black),
-        title: const Text(
-          "Benefit Services",
-          style: TextStyle(
-            color: Colors.orange,
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
+        title: const Text("Explore Services"),
       ),
       drawer: const DrawerMenu(),
       body: const HomeContent(),
